@@ -1,0 +1,401 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20210220.140357.6324.0.001.json",
+    "dumpEventTime": "2021-02-20T14:03:57Z",
+    "dumpEventTimeStamp": "1613819037302",
+    "processId": 6324,
+    "cwd": "C:\\Users\\Anton\\Desktop\\Бешенный Енот",
+    "commandLine": [
+      "D:\\steam\\steamapps\\common\\Discord Bot Maker\\nodejs\\node.exe",
+      "C:\\Users\\Anton\\Desktop\\Бешенный Енот\\bot.js",
+      "C:\\Users\\Anton\\Desktop\\Бешенный Енот\\actions"
+    ],
+    "nodejsVersion": "v12.16.1",
+    "wordSize": 32,
+    "arch": "ia32",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.16.1",
+      "v8": "7.8.279.23-node.31",
+      "uv": "1.34.0",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.40.0",
+      "napi": "5",
+      "llhttp": "2.0.4",
+      "http_parser": "2.9.3",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.16.1/node-v12.16.1-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.16.1/node-v12.16.1.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.16.1/win-x86/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.19042",
+    "osVersion": "Windows 10 Enterprise",
+    "osMachine": "i686",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i3-7100 CPU @ 3.90GHz",
+        "speed": 3912,
+        "user": 2118437,
+        "nice": 0,
+        "sys": 1209078,
+        "idle": 6005437,
+        "irq": 342515
+      },
+      {
+        "model": "Intel(R) Core(TM) i3-7100 CPU @ 3.90GHz",
+        "speed": 3912,
+        "user": 2239406,
+        "nice": 0,
+        "sys": 769984,
+        "idle": 6323562,
+        "irq": 58984
+      },
+      {
+        "model": "Intel(R) Core(TM) i3-7100 CPU @ 3.90GHz",
+        "speed": 3912,
+        "user": 2423406,
+        "nice": 0,
+        "sys": 721703,
+        "idle": 6187843,
+        "irq": 12890
+      },
+      {
+        "model": "Intel(R) Core(TM) i3-7100 CPU @ 3.90GHz",
+        "speed": 3912,
+        "user": 2511546,
+        "nice": 0,
+        "sys": 660359,
+        "idle": 6160890,
+        "irq": 9234
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "Radmin VPN",
+        "internal": false,
+        "mac": "02:50:5a:4d:30:08",
+        "address": "fdfd::1ad4:9c65",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Radmin VPN",
+        "internal": false,
+        "mac": "02:50:5a:4d:30:08",
+        "address": "fe80::e577:2b10:eb6f:c8ab",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 14
+      },
+      {
+        "name": "Radmin VPN",
+        "internal": false,
+        "mac": "02:50:5a:4d:30:08",
+        "address": "26.212.156.101",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Ethernet",
+        "internal": false,
+        "mac": "e0:d5:5e:81:a2:d8",
+        "address": "fe80::7c10:62ea:a9eb:8991",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 10
+      },
+      {
+        "name": "Ethernet",
+        "internal": false,
+        "mac": "e0:d5:5e:81:a2:d8",
+        "address": "192.168.0.106",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Teredo Tunneling Pseudo-Interface",
+        "internal": false,
+        "mac": "00:00:00:00:00:00",
+        "address": "2001:0:284a:364:3c75:5b9:a432:5f44",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Teredo Tunneling Pseudo-Interface",
+        "internal": false,
+        "mac": "00:00:00:00:00:00",
+        "address": "fe80::3c75:5b9:a432:5f44",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 11
+      }
+    ],
+    "host": "DESKTOP-6B8OEUL"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x01b18770",
+      "symbol": "std::basic_streambuf<char,std::char_traits<char> >::`vftable'+64"
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 1076445184,
+    "totalCommittedMemory": 1076445184,
+    "usedMemory": 1073056988,
+    "availableMemory": 23943944,
+    "memoryLimit": 1098907648,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 22612,
+        "used": 22612,
+        "available": 0
+      },
+      "new_space": {
+        "memorySize": 2097152,
+        "committedMemory": 2097152,
+        "capacity": 1048016,
+        "used": 614552,
+        "available": 433464
+      },
+      "old_space": {
+        "memorySize": 1032421376,
+        "committedMemory": 1032421376,
+        "capacity": 1031215884,
+        "used": 1031215884,
+        "available": 0
+      },
+      "code_space": {
+        "memorySize": 425984,
+        "committedMemory": 425984,
+        "capacity": 272448,
+        "used": 272448,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 528384,
+        "committedMemory": 528384,
+        "capacity": 283320,
+        "used": 283320,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 40660992,
+        "committedMemory": 40660992,
+        "capacity": 40646444,
+        "used": 40646444,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 49152,
+        "committedMemory": 49152,
+        "capacity": 1728,
+        "used": 1728,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1048016,
+        "used": 0,
+        "available": 1048016
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 115.75,
+    "kernelCpuSeconds": 1.703,
+    "cpuConsumptionPercent": 172.725,
+    "maxRss": 1195614208,
+    "pageFaults": {
+      "IORequired": 523600,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 842,
+      "writes": 38
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "=C:": "C:\\Users\\Anton\\Desktop\\Бешенный Енот",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "AMD_VK_PIPELINE_CACHE_FILENAME": "steamapp_shader_cache",
+    "AMD_VK_PIPELINE_CACHE_PATH": "D:\\steam\\steamapps\\shadercache\\682130\\AMDv1",
+    "AMD_VK_USE_PIPELINE_CACHE": "1",
+    "APPDATA": "C:\\Users\\Anton\\AppData\\Roaming",
+    "BREAKPAD_DUMP_LOCATION": "D:\\steam\\dumps",
+    "ChocolateyInstall": "C:\\ProgramData\\chocolatey",
+    "ChocolateyLastPathUpdate": "132582826689305384",
+    "CHROME_CRASHPAD_PIPE_NAME": "\\\\.\\pipe\\crashpad_10076_ZKKVDKYNVUTDUILZ",
+    "CHROME_RESTART": "NW.js|Произошел сбой NW.js. Перезапустить?|LEFT_TO_RIGHT",
+    "CommonProgramFiles": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMMON_MYDOCS": "C:\\Users\\Public\\Documents",
+    "COMPUTERNAME": "DESKTOP-6B8OEUL",
+    "ComSpec": "C:\\Windows\\system32\\cmd.exe",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "DXVK_STATE_CACHE_PATH": "D:\\steam\\steamapps\\shadercache\\682130\\DXVK_state_cache",
+    "EnableConfiguratorSupport": "15",
+    "ENABLE_VK_LAYER_VALVE_steam_fossilize_1": "1",
+    "ENABLE_VK_LAYER_VALVE_steam_overlay_1": "1",
+    "FOSSILIZE_APPLICATION_INFO_FILTER_PATH": "D:\\steam\\fossilize_engine_filters.json",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\Anton",
+    "INSTALLDIR": "D:\\steam\\steamapps\\common\\Discord Bot Maker",
+    "INTEL_DEV_REDIST": "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\",
+    "LOCALAPPDATA": "C:\\Users\\Anton\\AppData\\Local",
+    "LOCAL_APPDATA": "C:\\Users\\Anton\\AppData\\Local",
+    "LOGONSERVER": "\\\\DESKTOP-6B8OEUL",
+    "MESA_GLSL_CACHE_DIR": "D:\\steam\\steamapps\\shadercache\\682130",
+    "MESA_GLSL_CACHE_MAX_SIZE": "5G",
+    "MIC_LD_LIBRARY_PATH": "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\compiler\\lib\\mic",
+    "NUMBER_OF_PROCESSORS": "4",
+    "OneDrive": "C:\\Users\\Anton\\OneDrive",
+    "OS": "Windows_NT",
+    "Path": "D:\\steam;C:\\Python39\\Scripts\\;C:\\Python39\\;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\ProgramData\\chocolatey\\bin;C:\\Users\\Anton\\AppData\\Local\\Microsoft\\WindowsApps",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW",
+    "PROCESSOR_ARCHITECTURE": "x86",
+    "PROCESSOR_ARCHITEW6432": "AMD64",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 158 Stepping 9, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "9e09",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles": "C:\\Program Files (x86)",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PROMPT": "$P$G",
+    "PSModulePath": "C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "PUBLIC": "C:\\Users\\Public",
+    "ROOTDRIVE": "D",
+    "SDL_GAMECONTROLLERCONFIG": "03000000790000001c18000000000000,STK-7024X,a:b0,b:b1,back:b10,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b6,leftstick:b13,lefttrigger:b8,leftx:a0,lefty:a1,rightshoulder:b7,rightstick:b14,righttrigger:b9,rightx:a3,righty:a4,start:b11,x:b3,y:b4,",
+    "SDL_GAMECONTROLLER_ALLOW_STEAM_VIRTUAL_GAMEPAD": "1",
+    "SDL_GAMECONTROLLER_IGNORE_DEVICES_EXCEPT": "0x28DE/0x0000,",
+    "SDL_GAMECONTROLLER_USE_BUTTON_LABELS": "1",
+    "SDL_JOYSTICK_HIDAPI_STEAMXBOX": "0",
+    "SESSIONNAME": "Console",
+    "SteamAppId": "682130",
+    "SteamAppUser": "creeperok1234",
+    "SteamClientLaunch": "1",
+    "SteamEnv": "1",
+    "SteamGameId": "682130",
+    "SteamGenericControllers": "0x1c10/0x1c17,0x044f/0xd003,0x0583/0x2060,0x1dd8/0x0010,0x1dd8/0x000f,0x0079/0x184f,0x2717/0x3144,0x1a34/0x0806,0x0c45/0x4320,0x11ff/0x3341,0x25f0/0x83c1,0x0079/0x000a,0x146b/0x0302,0x1a34/0x0823,0x0f30/0x0107,0x04d9/0x0002,0x05b8/0x1002,0x145f/0x01c5,0x20d6/0x0060,0x6666/0x8804,0x044f/0xb300,0x044f/0xb304,0x044f/0xb323,0x07b5/0x0312,0x19fa/0x0607,0x0111/0x1419,0x1038/0x1418,0x0111/0x1431,0x18d1/0x9400,0x11c0/0x9105,0x289b/0x0005,0x0500/0x9b28,0x0f30/0x0111,0x06a3/0xf620,0x06a3/0x0621,0x06a3/0x040b,0x06a3/0x040b,0x0f30/0x0110,0x06a3/0x040c,0x06a3/0xff0c,0x0f30/0x0112,0x06a3/0xf623,0x7545/0x1122,0x0079/0x181c,0x1a34/0x0809,0x1a34/0x0802,0x0e6f/0x012f,0x0079/0x0011,0xf000/0x00f1,0xf000/0x0003,0x0f0d/0x005c,0x0f0d/0x005b,0x0f0d/0x008b,0x0f0d/0x006b,0x1532/0x0900,0x1532/0x0707,0x1532/0x0705,0x1532/0x0402,0x1532/0x0300,0x0f0d/0x0022,0x0f0d/0x0070,0x0f0d/0x0011,0x2c22/0x2300,0x2c22/0x2302,0x1a34/0x0401,0x0f30/0x1012,0x0f30/0x1116,0x20d6/0x57c7,0x20d6/0x319f,0x20d6/0x5795,0x0e8f/0x0003,0x0010/0x0082,0x0738/0xa856,0x0e8f/0x3114,0x0d9d/0x3013,0x146b/0x0303,0x6666/0x0667,0x05e3/0x0596,0x2563/0x0623,0x146b/0xa101,0x2378/0x100a,0x2836/0x0001,0x050d/0x0803,0x12bd/0xd015,0x0079/0x1843,0x124b/0x4d01,0x2015/0x8201,0x0810/0xe501,0x146b/0x0c01,0xbeef/0xfeed,0x0079/0x1800,0x0925/0x03e8,0x0e8f/0x3010,0x0925/0x2801,0x062a/0x2410,0x0738/0x3285,0x0738/0x8818,0x0738/0x3480,0x0738/0x5262,0x0738/0x3481,0x0738/0x3384,0x0738/0x5266,0x24c6/0x891b,0x24c6/0x891a,0x24c6/0x892b,0x24c6/0x892a,0x0738/0x8263,0x046d/0xc219,0x046d/0xc218,0x046d/0xc216,0x046d/0xc211,0x046d/0xcad2,0x046d/0xcad1,0x0079/0x0002,0x056e/0x2007,0x056e/0x2003,0x056e/0x2005,0x1949/0x0402,0x07b5/0x0314,0x05ac/0x022c,0x0e6f/0x0124,0x0e8f/0x3013,0x0f0d/0x0054,0x0f0d/0x0040,0x14d8/0x6208,0x0f0d/0x0049,0x1a34/0x0203,0x0925/0x1700,0x2563/0x0526,0x25f0/0x83c2,0x25f0/0x83c4,0x0583/0xa009,0x0583/0xb031,0x1a5c/0x3033,0x0428/0x4001,0x0926/0x2526,0xffff/0x0000,0x05ac/0x044d,0x05ac/0x033d,0xf766/0x0001,0x0079/0x0122,0x0f30/0x010b,0x0079/0x0006,0x0f0d/0x0088,0x0f0d/0x0027,0x2185/0x0102,0x0e8f/0x310f,0x1a34/0x0801,0x0e6f/0x0130,0x12bd/0xe002,0x1d79/0x0301,0x1345/0x3008,0x0926/0x8888,0x20e8/0x5860,0xf766/0x0005,0x146b/0x0301,0x0079/0x0007,0x11c0/0x5506,0x11c0/0x5505,0x20bc/0x1264,0x20bc/0x1263,0x20bc/0x1260,0x0e6f/0x0132,0x11c0/0x5213,0x20d6/0x57e5,0x1dd8/0x000b,0x20d6/0x571d,0x0e6f/0x011a,0x0e6f/0x0119,0x0e6f/0x0114,0x0e6f/0x0111,0x19fa/0xfff0,0x0e8f/0x0012,0x05a0/0x3232,0x2dc8/0x3230,0x2dc8/0x9018,0x1235/0xab20,0x2dc8/0x6001,0x2dc8/0x6102,0x2dc8/0x6002,0x2dc8/0x2862,0x2dc8/0x9012,0x2810/0x0009,0x2dc8/0x6100,0x2dc8/0x6000,0x2dc8/0x3820,0x3820/0x0009,0x2002/0x9000,0x1235/0xab12,0x2dc8/0x2865,0x2dc8/0x9015,0x2dc8/0x0651,0x2dc8/0x5006,0x2dc8/0x3810,0x2dc8/0x9000,0x2dfa/0x0001,",
+    "STEAMID": "76561198163218461",
+    "SteamOverlayGameId": "682130",
+    "SteamPath": "D:\\steam",
+    "SteamStreamingHardwareEncodingAMD": "1",
+    "SteamStreamingHardwareEncodingIntel": "1",
+    "SteamStreamingHardwareEncodingNVIDIA": "1",
+    "SteamUser": "creeperok1234",
+    "STEAMVIDEOTOKEN": "10736\n32f5h290g53047gv5034nbvt923b\n",
+    "STEAM_COMPAT_MEDIA_PATH": "D:\\steam\\steamapps\\shadercache\\682130/fozmediav1",
+    "STEAM_COMPAT_TRANSCODED_MEDIA_PATH": "D:\\steam\\steamapps\\shadercache\\682130/swarm",
+    "STEAM_FOSSILIZE_DUMP_PATH": "D:\\steam\\steamapps\\shadercache\\682130\\fozpipelinesv5\\steamapprun_pipeline_cache",
+    "STEAM_FOSSILIZE_DUMP_PATH_READ_ONLY": "D:\\steam\\steamapps\\shadercache\\682130\\fozpipelinesv5\\steam_pipeline_cache.foz;D:\\steam\\steamapps\\shadercache\\682130\\fozpipelinesv5\\steamapp_pipeline_cache.foz",
+    "SystemDrive": "C:",
+    "SystemRoot": "C:\\Windows",
+    "TEMP": "C:\\Users\\Anton\\AppData\\Local\\Temp",
+    "TMP": "C:\\Users\\Anton\\AppData\\Local\\Temp",
+    "USERDOMAIN": "DESKTOP-6B8OEUL",
+    "USERDOMAIN_ROAMINGPROFILE": "DESKTOP-6B8OEUL",
+    "USERNAME": "Anton",
+    "USERPROFILE": "C:\\Users\\Anton",
+    "USER_MYDOCS": "C:\\Users\\Anton\\Documents",
+    "ValvePlatformMutex": "d:/steam/steam.exe",
+    "windir": "C:\\Windows",
+    "__GL_SHADER_DISK_CACHE_APP_NAME": "steamapp_shader_cache",
+    "__GL_SHADER_DISK_CACHE_PATH": "D:\\steam\\steamapps\\shadercache\\682130\\nvidiav1",
+    "__GL_SHADER_DISK_CACHE_READ_ONLY_APP_NAME": "steam_shader_cache;steamapp_merged_shader_cache",
+    "__GL_SHADER_DISK_CACHE_SKIP_CLEANUP": "1"
+  },
+  "sharedObjects": [
+    "D:\\steam\\steamapps\\common\\Discord Bot Maker\\nodejs\\node.exe",
+    "C:\\Windows\\SYSTEM32\\ntdll.dll",
+    "C:\\Windows\\System32\\KERNEL32.DLL",
+    "C:\\Windows\\System32\\KERNELBASE.dll",
+    "C:\\Windows\\System32\\WS2_32.dll",
+    "C:\\Windows\\System32\\RPCRT4.dll",
+    "C:\\Windows\\System32\\PSAPI.DLL",
+    "C:\\Windows\\System32\\ADVAPI32.dll",
+    "C:\\Windows\\System32\\msvcrt.dll",
+    "C:\\Windows\\System32\\sechost.dll",
+    "C:\\Windows\\System32\\USER32.dll",
+    "C:\\Windows\\System32\\win32u.dll",
+    "C:\\Windows\\System32\\GDI32.dll",
+    "C:\\Windows\\System32\\gdi32full.dll",
+    "C:\\Windows\\System32\\msvcp_win.dll",
+    "C:\\Windows\\System32\\ucrtbase.dll",
+    "C:\\Windows\\System32\\CRYPT32.dll",
+    "C:\\Windows\\System32\\bcrypt.dll",
+    "C:\\Windows\\SYSTEM32\\dbghelp.dll",
+    "C:\\Windows\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\Windows\\SYSTEM32\\USERENV.dll",
+    "C:\\Windows\\SYSTEM32\\WINMM.dll",
+    "C:\\Windows\\System32\\IMM32.DLL",
+    "D:\\steam\\gameoverlayrenderer.dll",
+    "C:\\Windows\\System32\\ole32.dll",
+    "C:\\Windows\\System32\\combase.dll",
+    "C:\\Windows\\SYSTEM32\\powrprof.dll",
+    "C:\\Windows\\SYSTEM32\\UMPDC.dll",
+    "C:\\Windows\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\Windows\\system32\\uxtheme.dll",
+    "C:\\Windows\\system32\\mswsock.dll",
+    "C:\\Windows\\SYSTEM32\\kernel.appcore.dll",
+    "C:\\Windows\\System32\\bcryptprimitives.dll",
+    "C:\\Windows\\System32\\NSI.dll",
+    "C:\\Windows\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\Windows\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\Windows\\SYSTEM32\\DNSAPI.dll",
+    "C:\\Windows\\system32\\napinsp.dll",
+    "C:\\Windows\\system32\\pnrpnsp.dll",
+    "C:\\Windows\\system32\\wshbth.dll",
+    "C:\\Windows\\system32\\NLAapi.dll",
+    "C:\\Windows\\System32\\winrnr.dll",
+    "C:\\Windows\\System32\\rasadhlp.dll",
+    "C:\\Windows\\System32\\fwpuclnt.dll"
+  ]
+}
